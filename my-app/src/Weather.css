@@ -1,7 +1,15 @@
 body {
     font-family: arial, sans-serif;
   }
-  
+  .title{
+    color:green;
+    text-align: center;
+    margin-top:7%;
+    margin-bottom: 7%;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
   h1 {
     color: #878787;
     font-size: 24px;
@@ -53,7 +61,7 @@ body {
   
   .weather-container {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    margin: 20px 0;
+    margin: 20px auto;
     max-width: 630px;
     padding: 20px 16px 24px 16px;
   }
